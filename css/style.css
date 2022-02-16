@@ -1,0 +1,334 @@
+@import "null.css";
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/*=================*/
+/* ===Для статьи===*/
+/*=================*/
+@font-face {
+   font-family: 'CircularStd';
+   src: url(../fonts/CircularStd-Bold.woff2) format("woff2");
+   src: url(../fonts/CircularStd-Bold.woff) format("woff");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;   
+}
+@font-face {
+   font-family: 'CircularStd';
+   src: url(../fonts/CircularStd-Medium.woff2) format("woff2");
+   src: url(../fonts/CircularStd-Medium.woff) format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;   
+}
+@font-face {
+   font-family: 'CircularStd';
+   src: url(../fonts/CircularStd-Book.woff2) format("woff2");
+   src: url(../fonts/CircularStd-Book.woff) format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;   
+}
+@font-face {
+   font-family: "MontserratAlternates";
+   src: url(../fonts/MontserratAlternates-SemiBoldItalic.woff2) format("woff2");
+   src: url(../fonts/MontserratAlternates-SemiBoldItalic.woff) format("woff");
+   font-weight: 600;
+   font-style: italic;
+   font-display: swap;   
+}
+@font-face {
+   font-family: 'PressStart2P';
+   src: url(../fonts/PressStart2P-Regular.woff2) format("woff2");
+   src: url(../fonts/PressStart2P-Regular.woff) format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;   
+}
+.state {
+   background: url("../img/m-6.jpg") 0 0 / 100% 110% no-repeat fixed;   
+}
+div.maldives {
+   max-width: 1200px;
+   margin: 10px auto 0 auto;
+   padding: 0 10px;
+}
+.header {
+   height: 250px;
+   margin: 0 0 20px 0 ;
+   border-radius: 20px;
+   color: rgb(2, 2, 124);
+   text-shadow: 2px 2px 2px white;
+   box-shadow: 2px 2px 2px rgb(75, 74, 74);
+   background: url("../img/maldives_banner.png") 0 0 / 100% 100% no-repeat;
+}
+.title {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 68px;
+   letter-spacing: 3px;
+   font-weight: 800;
+   padding: 160px 0 0 20px;
+}
+.p-1 {
+   font-size: 28px;
+   color: beige;
+   text-shadow: 0px 0px 2px black;
+   padding: 20px 20px 20px 350px;
+   text-align: justify;
+   margin-bottom: 20px;
+   font-weight: 600;
+   text-indent: 50px;
+   line-height: 1.3;
+   border-radius: 10px;
+   background: url("../img/m_1.gif") 0 0 / auto 100%  no-repeat, linear-gradient(90deg, rgba(9,9,121,0.6) 32%, rgba(0,212,255,0.6) 81%);
+}
+.block-1 {
+   font-family: 'Caveat';
+   font-size: 30px;
+   color: rgb(0, 46, 46);
+   text-shadow: 1px 1px 2px rgb(255, 255, 255);
+   font-weight: 700;
+   text-align: justify;
+   line-height: 1;
+   text-indent: 50px;
+}
+.block-1, .block-2, .block-3, .block-4 {
+   margin-bottom: 30px;
+}
+.p-2, .p-3, .p-4, .p-5, .p-6, .title-4 {
+   padding-bottom: 20px;
+}
+.title-2 {
+   font-size: 50px;
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 700;
+   margin-bottom: 20px;
+   text-indent: 0px;
+}
+.block-2 {
+   font-size: 22px;
+   color: beige;
+   text-align: justify;
+   font-weight: 600;
+   letter-spacing: 1px;
+   padding: 40px 25px 10px;
+   text-indent: 40px;
+   line-height: 1.3;
+   text-shadow: 2px 2px 3px black;
+   border-radius: 20px;
+   border: 3px solid green;
+   background: url("../img/m-5.jpg") 0 0 / 100% 100% no-repeat;
+   box-shadow: inset 10px 10px 10px 5px rgba(255, 255, 255, 0.7), inset -10px -10px 10px 5px rgba(0, 0, 0, 0.486);
+}
+.p-4 {
+   font-size: 35px;
+   text-align: center;
+   font-weight: 800;
+   line-height: 1.3;
+   letter-spacing: 1px;
+   padding: 30px 0px;
+   margin: 0 auto 30px auto;
+   max-width: 70%;
+   border-top: 15px double gray;
+   border-bottom: 15px double gray;
+   background-color: rgba(255, 255, 255, 0.479);
+}
+.block-3 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 26px;
+   color: rgb(230, 230, 230);
+   text-align: center;
+   font-weight: 800;
+   letter-spacing: 2px;
+   padding: 40px 25px 10px;
+   text-indent: 20px;
+   line-height: 1.2;
+   text-shadow: 2px 2px 3px rgb(0, 0, 0);
+   border-radius: 30px;
+   border: 3px dotted rgb(14, 2, 177);
+   background: url("../img/m-7.jpg") left top/ 50% 50% no-repeat, url("../img/m-1.jpg") right top/ 50% 50% no-repeat, url("../img/m-2.jpg") left bottom/ 50% 50% no-repeat, url("../img/m-3.jpg") right bottom / 50% 50% no-repeat;
+   box-shadow: inset 10px 10px 10px 5px rgba(255, 255, 255, 0.7), inset -10px -10px 10px 5px rgba(0, 0, 0, 0.486);
+}
+.title-3 {
+   font-family: "MontserratAlternates";
+   font-size: 40px;
+   font-weight: 600;
+   font-style: italic;
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   text-shadow: 1px 1px 1px black;
+   background-color: rgba(12, 12, 235, 0.4);
+   border-radius: 20%;
+   margin-bottom: 120px;
+   padding: 20px 20px;
+   text-align: center;
+}
+.section-1 {
+   background: url("../img/m-1-1.png") 0 130px repeat-x;
+}
+.block-4 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   font-style: oblique;
+   letter-spacing: 2px;
+   padding: 30px 10px 0px 300px;
+   text-indent: 20px;
+   line-height: 1.2;
+   text-shadow: 2px 2px 3px rgb(255, 255, 255);
+   border: 2px solid rgb(14, 2, 177);
+   box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.7);
+}
+.title-4 {
+   font-size: 30px;
+}
+.number-8 {
+   border-radius: 80px;
+   background: linear-gradient(90deg, rgba(255,255,255,0) 14%, rgba(130,250,244,1) 60%), url("../img/m-8.jpg") 0 0 / 60% 100% no-repeat;
+}
+.number-7 {
+   color: white;
+   text-shadow: 1px 1px 1px black;
+   font-weight: 600;
+   padding: 30px 30px 0px 450px;
+   text-align: justify;
+   border-radius: 80px 0 80px 0;
+   background: url("../img/m-9.jpg") 0 0 / 100% 100% no-repeat;
+}
+.number-6 {
+   border-radius: 0 50px 0 50px;
+   background: linear-gradient(90deg, rgba(255,255,255,0) 14%, rgba(130,250,244,1) 60%), url("../img/m-10.jpg") 0 0 / 60% 100% no-repeat;
+}
+.number-5 {
+   border-radius: 50px 50px 0 0;
+   background: linear-gradient(90deg, rgba(255,255,255,0) 14%, rgba(130,250,244,1) 60%), url("../img/m-11.jpg") 0 0 / 60% 100% no-repeat;
+}
+.number-4 {
+   border-radius: 0 0 50px 50px;
+   background: linear-gradient(90deg, rgba(255,255,255,0) 14%, rgba(130,250,244,1) 60%), url("../img/m-12.jpg") 0 0 / 60% 100% no-repeat;
+}
+.number-3 {
+   padding: 30px 270px 0px 270px;
+   text-align: center;
+   background: linear-gradient(90deg, rgba(255,255,255,0) 10%, rgba(130,250,244,1) 41%, rgba(133,250,244,1) 60%, rgba(255,255,255,0) 90%), url("../img/m-13.jpg") left / 40% 100% no-repeat, url("../img/m-13-1.jpg") right / 40% 100% no-repeat;
+}
+.number-2 {
+   border-radius: 0 50px 50px 0 ;
+   background: linear-gradient(90deg, rgba(255,255,255,0) 14%, rgba(130,250,244,1) 60%), url("../img/m-14.jpg") 0 0 / 60% 100% no-repeat;
+}
+.number-1 {
+   border-radius: 50px 0 0  50px;
+   background: linear-gradient(90deg, rgba(255,255,255,0) 14%, rgba(130,250,244,1) 60%), url("../img/m-15.jpg") 0 0 / 60% 100% no-repeat;
+}
+.link {
+   color: rgb(1, 1, 80);
+   text-decoration: underline;
+}
+/*=================================*/
+/* --Для страницы с макетом Figma--*/
+/*=================================*/
+.figma {
+   margin-left: 345px;
+   width: 810px;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   color: #424551;
+   line-height: 1.6;
+}
+.header-f {
+   margin: 80px 0px 40px 0px;
+   padding-top: 38px;
+}
+.title-f-1 {
+   font-size: 46px;
+   font-weight: 900;
+   color: #1E212C;
+   line-height: 1.3;
+}
+.first {
+   margin-bottom: 26px;
+}
+.f-m {
+   display: inline-block;
+   color: #787A80;
+   padding-left: 24px;
+}
+.date {
+   background: url(../img/Vector_Stroke.svg) left no-repeat; 
+}
+.time {
+   margin-left: 24px;
+   background: url(../img/Union.svg) left no-repeat; 
+}
+.img1 {
+   width: 810px;
+   height: 360px;
+   border-radius: 4px;
+   margin-bottom: 60px;
+}
+.parahraph-1, .parahraph-3, .figma-list {
+   margin-bottom: 24px;
+}
+.block-f, .block2-f, .figma-list-2 {
+   margin-bottom: 48px;
+}
+.block2-f {
+   background: url(../img/braces.svg) no-repeat;   
+}
+.parahraph-2 {
+   padding-left: 58px;
+}
+.parahraph-1,
+.parahraph-2 {
+   font-size: 20px;
+   font-weight: 700;
+   color: #1E212C;
+   line-height: 1.3;
+}
+.figma-list p{
+   padding-left: 32px;
+   background: url(../img/Vector.svg) 1px 6px no-repeat;
+}
+.f-m1 {
+   margin-bottom: 4px;
+}
+/*=================================*/
+/* --Для страницы с макетом Figma-2--*/
+/*=================================*/
+.header-f-2 {
+   margin-bottom: 40px;
+}
+.title-f-6 {
+   line-height: 1.5;
+   color: #1E212C;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin-bottom: 8px;
+   letter-spacing: 1px;
+}
+.figma-list-2 {
+   max-width: 390px;
+}
+.figma-list-2 p{
+   padding-left: 32px;
+   background: url(../img/Vector.svg) 1px 6px no-repeat;
+}
+.f-m2 {
+   margin-bottom: 12px;
+}
+.f-m3 {
+   font-weight: 700;
+   font-size: 14px;
+   text-align: center;
+   line-height: 3.14;
+   letter-spacing: 0.5px;
+   display: inline-block;
+   color: white;
+   width: auto;
+   padding: 0 32px;
+   border-radius: 4px;
+   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+}
